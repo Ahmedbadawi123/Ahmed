@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sama Fashion 22 - Boutique</title>
+    <style>
+        /* General Styling */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Header */
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2em;
+            margin: 0;
+        }
+
+        /* Profile Section */
+        .profile-section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 40px 20px;
+            background-color: #ffffff;
+        }
+
+        .profile-image {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            background-color: #ddd;
+        }
+
+        .profile-username {
+            font-size: 1.8em;
+            color: #333;
+            margin: 20px 0 10px;
+        }
+
+        .profile-bio {
+            max-width: 600px;
+            text-align: center;
+            font-size: 1.1em;
+            color: #555;
+        }
+
+        /* Products Section */
+        .products-section {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .product-card {
+            background-color: #ffffff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            width: 220px;
+            text-align: center;
+            padding: 20px;
+            transition: transform 0.3s ease;
+        }
+
+        .product-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .product-image {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+            margin-bottom: 15px;
+        }
+
+        .product-name {
+            font-size: 1.3em;
+            color: #333;
+            margin: 10px 0;
+        }
+
+        .buy-button {
+            margin-top: 15px;
+            padding: 10px 20px;
+            font-size: 1em;
+            color: white;
+            background-color: #e1306c;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .buy-button:hover {
+            background-color: #c72d5b;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Sama Fashion 22</h1>
+</header>
+
+<main>
+    <!-- Profile Section -->
+    <section class="profile-section">
+        <img src="your-profile-image-url.jpg" alt="Profile Image" class="profile-image">
+        <div class="profile-username">@sama.fashion.22</div>
+        <p class="profile-bio">Explore the latest trends and stylish designs! Message us on Instagram to discuss prices and place your order.</p>
+        <a href="https://www.instagram.com/sama.fashion.22" class="buy-button" target="_blank">Visit Our Instagram</a>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products-section">
+        <!-- Product 1 -->
+        <div class="product-card">
+            <img src="dress-1.jpg" alt="Dress 1" class="product-image">
+            <h2 class="product-name">Elegant Evening Dress</h2>
+            <a href="https://www.instagram.com/sama.fashion.22" class="buy-button" target="_blank">Buy on Instagram</a>
+        </div>
+
+        <!-- Product 2 -->
+        <div class="product-card">
+            <img src="top-1.jpg" alt="Stylish Top" class="product-image">
+            <h2 class="product-name">Stylish Top</h2>
+            <a href="https://www.instagram.com/sama.fashion.22" class="buy-button" target="_blank">Buy on Instagram</a>
+        </div>
+
+        <!-- Product 3 -->
+        <div class="product-card">
+            <img src="jacket-1.jpg" alt="Casual Jacket" class="product-image">
+            <h2 class="product-name">Casual Jacket</h2>
+            <a href="https://www.instagram.com/sama.fashion.22" class="buy-button" target="_blank">Buy on Instagram</a>
+        </div>
+
+        <!-- Product 4 -->
+        <div class="product-card">
+            <img src="skirt-1.jpg" alt="Chic Skirt" class="product-image">
+            <h2 class="product-name">Chic Skirt</h2>
+            <a href="https://www.instagram.com/sama.fashion.22" class="buy-button" target="_blank">Buy on Instagram</a>
+        </div>
+
+        <!-- Product 5 -->
+        <div class="product-card">
+            <img src="sweater-1.jpg" alt="Cozy Sweater" class="product-image">
+            <h2 class="product-name">Cozy Sweater</h2>
+            <a href="https://www.instagram.com/sama.fashion.22" class="buy-button" target="_blank">Buy on Instagram</a>
+        </div>
+
+        <!-- Product 6 -->
+        <div class="product-card">
+            <img src="pants-1.jpg" alt="Trendy Pants" class="product-image">
+            <h2 class="product-name">Trendy Pants</h2>
+            <a href="https://www.instagram.com/sama.fashion.22" class="buy-button" target="_blank">Buy on Instagram</a>
+        </div>
+    </section>
+</main>
+
+<footer>
+    &copy; 2024 Sama Fashion 22 | All rights reserved
+</footer>
+
+</body>
+</html>
